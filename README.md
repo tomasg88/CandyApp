@@ -11,7 +11,7 @@ Also, to help identify _good_ candies and keep people safe.
 If you are coding in React Native for the 1st time (like I am), be aware that the environment setup requires installing several extra tools (like Android Studio or XCode if you are on Mac OS), so please read carefully through the Environment Setup section.
 If this is not your first time developing on React Native and you have already a working environment for this, jump to the **Steps to run locally**
 
-### [Environment Setup]
+### Environment Setup
 
 [This](https://reactnative.dev/docs/0.71/environment-setup) is the link to the official guide from React Native team, for version 0.71.8.
 I am using Mac OS system and targetting to build for iOS, see the [Tech Stack](#tech-stack) section for the tools and its versions. I am **not using Expo** because I feel that the integration with an AI image analyzer _might_ require custom code Android or iOS.
@@ -41,4 +41,6 @@ Once you have the sample app up and running, scroll down to the [Steps to run lo
   - [ ] Camera usage for AI Image Analyzer module
 - [ ] Research and integrate an AI Image Analyzer
 
-License
+## License
+
+This App has MIT License, following React Native License [here](https://github.com/facebook/react-native#-license)
