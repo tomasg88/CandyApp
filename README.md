@@ -14,9 +14,9 @@ If this is not your first time developing on React Native and you have already a
 ### [Environment Setup]
 
 [This](https://reactnative.dev/docs/0.71/environment-setup) is the link to the official guide from React Native team, for version 0.71.8.
-I am using Mac OS system and targetting to build for iOS, see the [Tech Stack](https://github.com/tomasg88/CandyApp#tech-stack) section for the tools and its versions. I am **not using Expo** because I feel that the integration with an AI image analyzer _might_ require custom code Android or iOS.
+I am using Mac OS system and targetting to build for iOS, see the [Tech Stack](#tech-stack) section for the tools and its versions. I am **not using Expo** because I feel that the integration with an AI image analyzer _might_ require custom code Android or iOS.
 
-Once you have the sample app up and running, scroll down to the [Steps to run locally](https://github.com/tomasg88/CandyApp#steps-to-run-locally) section
+Once you have the sample app up and running, scroll down to the [Steps to run locally](#steps-to-run-locally) section
 
 ### Tech Stack
 
