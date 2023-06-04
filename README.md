@@ -1,5 +1,5 @@
 # CandyApp
-Image detection mobile app for Candy's. The long term goal of the app is to become the 1st guide for good candies around the world.
+Image detection mobile app for Candies. The long term goal of the app is to become the 1st guide for good candies around the world.
 
 ## Why?
 
@@ -35,12 +35,10 @@ Once you have the sample app up and running, scroll down to the Steps to run loc
 ### Goals - Roadmap
 
 - [x] Initial setup (repo, app working in emulator, basic coding rules)
-- [ ] Basic UI with 3 sections
-- - [ ] About
-- - [ ] List - mock
-- - [ ] Details
-- - [ ] Image Analyzer
-- [ ] Research and Integrate an image analyzer
-
+- [ ] Basic UI with 3 sections - (In Progress)
+  - [ ] About
+  - [ ] Candies List and Details - mock
+  - [ ] Camera usage for AI Image Analyzer module
+- [ ] Research and integrate an AI Image Analyzer
 
 License
