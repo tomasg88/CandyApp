@@ -1,4 +1,4 @@
-# CandyApp
+# Candys App
 Image detection mobile app for Candies. The long term goal of the app is to become the 1st guide for good candies around the world.
 
 ## Why?
