@@ -26,24 +26,24 @@ function App(): JSX.Element {
   return (
     <NavigationContainer>
       <StatusBar
-        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
         backgroundColor={backgroundStyle.backgroundColor}
+        barStyle={isDarkMode ? 'light-content' : 'dark-content'}
       />
       <RootStack.Navigator initialRouteName="Home">
         {/* Home */}
-        <RootStack.Screen name="Home" component={Home} />
+        <RootStack.Screen component={Home} name="Home" />
 
         {/* List */}
         <RootStack.Screen
-          name="List"
           component={List}
+          name="List"
           options={{title: 'List'}}
         />
 
         {/* Analyze module */}
         <RootStack.Screen
-          name="Analyze"
           component={Analyze}
+          name="Analyze"
           options={{title: 'Analyze'}}
         />
       </RootStack.Navigator>

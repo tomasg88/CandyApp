@@ -1,7 +1,6 @@
 import React, {FC} from 'react';
 import {Button, StyleSheet, View} from 'react-native';
 import type {NativeStackScreenProps} from '@react-navigation/native-stack';
-import {ReloadInstructions} from 'react-native/Libraries/NewAppScreen';
 import {Section} from '../components/section/Section';
 import {RootStackParamList} from '../App';
 
@@ -10,10 +9,9 @@ export const Home: FC<NativeStackScreenProps<RootStackParamList, 'Home'>> = ({
 }) => {
   return (
     <View style={homeStyles.container}>
-      <Section title="See Your Changes">
-        <ReloadInstructions />
+      <Section title="Bienvenido">
+        <Button onPress={() => navigation.navigate('List')} title="Comenzar" />
       </Section>
-      <Button title="Un Botón" onPress={() => navigation.navigate('List')} />
     </View>
   );
 };
@@ -23,6 +21,6 @@ const homeStyles = StyleSheet.create({
     flex: 1,
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: '#878787',
+    backgroundColor: '#f5f5f5',
   },
 });
