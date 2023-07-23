@@ -18,9 +18,9 @@ export const Home: FC<NativeStackScreenProps<RootStackParamList, 'Home'>> = ({
 
 const homeStyles = StyleSheet.create({
   container: {
-    flex: 1,
     alignItems: 'center',
+    backgroundColor: 'lightgrey',
+    flex: 1,
     justifyContent: 'center',
-    backgroundColor: '#f5f5f5',
   },
 });
